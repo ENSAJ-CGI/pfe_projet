@@ -1,7 +1,6 @@
-# Pull base image 
-From tomcat:8-jre8 
+# Pull image de base
+Depuis Tomcat: 8-jre8 
 
-# Maintainer 
-MAINTAINER "mohammed.achahba@cgi.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
-RUN cp -R /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
+# Mainteneur
+MAINTAINER  "valaxytech@gmail.com" 
+COPY ./webapp.war / usr / local / tomcat / webapps
